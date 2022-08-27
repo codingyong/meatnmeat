@@ -1,0 +1,38 @@
+#toplogo{
+    width: 100%;
+}
+#toplogo1{
+    width: 100%;
+}
+.footer {
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    text-align: center;
+}
+#radio1{
+ margin-left: 3%;
+ margin-right: 3%;
+}
+#radio2{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+#time1{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+#request{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#textzone {
+    border-radius: 10px;
+    height: 25px;
+    font-size: 17px;
+}
+#okorder{
+    width: 70%;
+}

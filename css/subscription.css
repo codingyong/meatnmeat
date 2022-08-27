@@ -1,0 +1,49 @@
+#toplogo{
+    width: 100%;
+}
+#toplogo1{
+    width: 100%;
+}
+.footer {
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    text-align: center;
+}
+#choice{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#choice2{
+    margin-right: 5%;
+}
+#config{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#option1{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#dateselect{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#dateselect1{
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#submit{
+    width: 80%;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(151, 24, 17);
+    margin-left: 10%;
+}
