@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 주변 매장 찾기 | 미트앤미트</title>
+    <link href="css/shop.css" rel="stylesheet">
+
+</head>
+<body>
+    <div style="width:100% ; text-align:center;">
+        <a href="index.html"><img id="toplogo" src="img/상단.JPG"><br></a>
+        <img id="toplogo1" src="img/내주변정육점.JPG">
+      </div>
+      <div style="clear:both"></div>
+
+      <script type="text/javascript" src = "https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=cvf2qove7h" ></script>
+      <div id="map" style="width:100%;height:600px;"></div>
+      <script>
+      var map = new naver.maps.Map('map', {
+            center: new naver.maps.LatLng(35.8613785, 128.624875),
+            zoom: 20
+          });
+    
+        var marker = new naver.maps.Marker({
+          position: new naver.maps.LatLng(35.8603785, 128.624875),
+          map: map
+        });
+        var marker = new naver.maps.Marker({
+            position: new naver.maps.LatLng(35.8612426, 128.6248723),
+            map: map
+          });
+        var marker = new naver.maps.Marker({
+            position: new naver.maps.LatLng(35.8609959,128.6245598),
+            map: map
+        });
+      </script>
+      <br>
+      <footer class="footer ">
+          <span class="footer__copyright">ⓒ2022 미트앤미트 <br>
+          All rights reserved</span>  
+      </footer>
+</body>
+</html>

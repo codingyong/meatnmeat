@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사업자모드  | 미트앤미트</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <div style="width:100% ; text-align:center;">
+        <a href="index.html"><img id="toplogo" src="img/상단.JPG"><br></a>
+    </div>
+    <div style="clear:both"></div>
+    <div style="width:100% ; text-align:center;">
+        <a href="#"><img id="banner" src="img/배너.JPG" onclick="alert('배너광고 준비중입니다.')"></a>
+    </div>
+    <div style="width:100% ; text-align:center;">
+        <!-- 이미지맵 태그를 위해서 usemap 항목을 넣어야하고, 하단 name에 이름을 맞춰 넣어야함-->
+       <img id="menuselect" src="img/미트앤미트-메인화면.png" usemap="#imagemap">
+       <!-- 이미지맵 태그-->
+       <map name="imagemap">
+           <area shape="rect" coords="70,66,726,303" href="pmanagement.html" target="_self">
+           <area shape="rect" coords="75,377,726,611" href="omanagement.html" target="_self">
+       </map>
+   </div>
+   <!-- 이미지맵 스크립트 링크 2-->
+   <script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+   <!-- 이미지맵 스크립트 링크 3 - js 내용 참고-->
+   <script>
+    $(function(){
+        $('img[usemap]').rwdImageMaps();
+        $("#img").width("100%");
+    });
+    </script>
+   <div style="clear:both"></div>
+   <br>
+   <footer class="footer ">
+    <span class="footer__copyright">ⓒ2022 미트앤미트 <br>
+    All rights reserved</span>  
+</footer>
+</body>
+</html>
